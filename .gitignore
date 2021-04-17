@@ -1,3 +1,5 @@
 cache/*.dat
 cache/*.png
 cache/mask_*
+composer.lock
+vendor/

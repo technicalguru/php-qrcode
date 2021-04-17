@@ -30,15 +30,8 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
  */
- 
-    define('QRSPEC_VERSION_MAX', 40);
-    define('QRSPEC_WIDTH_MAX',   177);
-
-    define('QRCAP_WIDTH',        0);
-    define('QRCAP_WORDS',        1);
-    define('QRCAP_REMINDER',     2);
-    define('QRCAP_EC',           3);
-
+namespace QR;
+     
     class QRspec {
     
         public static $capacity = array(

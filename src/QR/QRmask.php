@@ -24,12 +24,9 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
  */
+namespace QR;
+     
  
-	define('N1', 3);
-	define('N2', 3);
-	define('N3', 40);
-	define('N4', 10);
-
 	class QRmask {
 	
 		public $runLength = array();
