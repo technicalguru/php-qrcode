@@ -1,0 +1,26 @@
+{
+	"name": "technicalguru/qrcode",
+	"description": "Composer-friendly version of phpqrcode",
+	"type": "library",
+	"keywords": ["qr","qrcode"],
+	"license" : "LGPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "TechnicalGuru",
+			"homepage": "https://github.com/technicalguru/php-qrcode"
+		}
+	],
+    "require": {
+		"php" : ">=7.0.0"
+    },
+    "autoload": {
+		"psr-4": {
+			"QR\\": "src/QR/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	}
+}
