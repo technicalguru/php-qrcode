@@ -26,6 +26,8 @@
  */
 namespace QR;
 
+use \Exception;
+
 require_once(__DIR__.'/qrconst.php');
      
     class QRcode {

@@ -26,6 +26,8 @@
  */
 namespace QR;
      
+use \Exception;
+
     class QRinput {
 
         public $items;

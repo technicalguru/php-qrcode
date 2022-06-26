@@ -32,6 +32,8 @@
  */
 namespace QR;
      
+use \Exception;
+
     class QRsplit {
 
         public $dataStr = '';
