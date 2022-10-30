@@ -10,8 +10,8 @@ This project is licensed under [GNU LGPL 3.0](LICENSE.md).
 
 ## By Composer
 
-```
-composer install technicalguru/qrcode
+```sh
+composer require technicalguru/qrcode
 ```
 
 ## By Package Download
